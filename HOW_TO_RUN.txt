@@ -17,8 +17,10 @@ Every Time You Want to Run the App:
    .\venv\Scripts\Activate.ps1
    python main.py
 
-Or use the batch shortcut (if available):
-   Double-click `run_app.bat`
+Or use the batch shortcut (easiest):
+   1. Double-click `run_app.bat` in the project folder
+   2. First time: Let it complete the initial setup (installs dependencies)
+   3. After that: Just double-click `run_app.bat` every time you want to run the app
 
 Troubleshooting:
 - If you see import errors, re-run: `pip install -r requirements.txt`
